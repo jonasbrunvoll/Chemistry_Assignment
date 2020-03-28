@@ -13,6 +13,12 @@ class NumericDensity {
     private String color;
     private String notes;
 
+    //Get
+    public String getDensity(){
+        return density;
+    }
+
+
     public void submitList(String[] densities){
         String[] densityList = chechIfMissingColums(densities);
         this.nameAtom = densityList[0];

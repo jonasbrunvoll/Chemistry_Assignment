@@ -46,7 +46,7 @@ Antimony,Sb,6.685,33.063,51,3.0,silvery lustrous grey,toxic
 Cerium,Ce,6.770,29.097,58,2.5,resembles iron,"Used in ceramics and glassmaking, component of ""flints"" in cigarette lighters."
 Praseodymium,Pr,6.773,28.947,59,soft,"silvery white, yellowish tinge",
 Ytterbium,Yb,6.965,24.240,70,,,
-Astatine,At,7 approximately,20.074,85,,,Extremely rare
+Astatine,At,7,20.074,85,,,Extremely rare
 Neodymium,Nd,7.007,29.254,60,,,used in powerful permanent magnets and LASERs
 Zinc,Zn,7.134,65.682,30,2.5,,"Used to ""galvanize"" nails, sheet metal, and such."
 Chromium,Cr,7.15,82.811,24,8.5,,"e.g. Stainless steels, chrome plating, heating coils; +6 compounds are toxic."
@@ -67,17 +67,17 @@ Nickel,Ni,8.912,91.440,28,,,"alloys, nickel plating"
 Copper,Cu,8.96,84.912,29,,,"""noble"" metal, good conductor of electricity and heat"
 Erbium,Er,9.066,32.642,68,,,
 Polonium,Po,9.32,19.221,84,,,radioactive
-Ununhexium,Uuh,9.32 or greater,26.727 or greater,116,,,"man-made, highly unstable"
+Ununhexium,Uuh,9.32,26.727 or greater,116,,,"man-made, highly unstable"
 Thulium,Tm,9.321,33.227,69,,,
 Bismuth,Bi,9.807,20.507,83,,,"electrical solders, fire suppressors, replacement for lead bullets"
-Ununpentium,Uup,9.807 or greater,28.261 or greater,115,,,"unstable, man-made"
+Ununpentium,Uup,9.807,28.261 or greater,115,,,"unstable, man-made"
 Lutetium,Lu,9.84,22.618,71,,,
-Lawrencium,Lr,9.84 or greater,33.868 or greater,103,,,artificial
+Lawrencium,Lr,9.84,33.868 or greater,103,,,artificial
 Actinium,Ac,10.07,26.715,89,,radioactive metallic element. glows in the dark with an eerie blue light.,
 Molybdenum,Mo,10.22,64.149,42,,,"In ""chrome-moly"" steels and other steels, lubricants"
 Silver,Ag,10.501,58.626,47,,,"noble metal, in money, jewelry, eating utensils, soldering and brazing alloys"
 Lead,Pb,11.342,23.634,82,,,"toxic, being phased out in most applications"
-Ununquadium,Uuq,11.342 or greater,32.962 or greater,114,,,"unstable, man-made"
+Ununquadium,Uuq,11.342,32.962 or greater,114,,,"unstable, man-made"
 Technetium,Tc,11.50,70.668,43,,,"man-made, used in nuclear medicine."
 Thorium,Th,11.72,30.549,90,,,Possible nuclear fuel
 Thallium,Tl,11.85,34.916 or greater,81,,,"toxic, high-temperature superconductors"
@@ -86,10 +86,10 @@ Palladium,Pd,12.020,68.018,46,,,
 Ruthenium,Ru,12.37,73.704,44,,,
 Rhodium,Rh,12.41,72.625,45,,,
 Hafnium,Hf,13.31,44.907,72,,,
-Einsteinium,Es,13.5 (Estimate),32.261 (Estimate),99,,,artificial
+Einsteinium,Es,13.5,32.261 (Estimate),99,,,artificial
 Curium,Cm,13.51,32.939,96,,,artificial
 Mercury,Hg,13.5336,40.631,80,,,liquid at room temperature; toxic; in batteries and thermometers
-Ununbium,Uub,13.5336 or greater,28.597,112,,,"artificial element,"
+Ununbium,Uub,13.5336,28.597,112,,,"artificial element,"
 Americium,Am,13.69,19.84,95,,,Am-241 used in smoke detectors.
 Berkelium,Bk,14.79,36.060,97,,,artificial
 Californium,Cf,15.10,36.229,98,,,artificial
@@ -99,19 +99,19 @@ Rutherfordium,Rf,18.1,41.763,104,,,artificial
 Uranium,U,18.95,51.739,92,,,nuclear fuel
 Tungsten,W,19.25,63.058,74,,,strong but brittle; heat resistant; extremely high melting point
 Gold,Au,19.282,42.691,79,,,
-Roentgenium,Rg,19.282 or greater,42.691 or greater,111,,,artificial
+Roentgenium,Rg,19.282,42.691 or greater,111,,,artificial
 Plutonium,Pu,19.816,33.788,94,,,nuclear fuel
 Neptunium,Np,20.45,48.152,93,,,
 Rhenium,Re,21.02,67.981,75,,,
 Platinum,Pt,21.46,66.246,78,,,precious metal and industrial catalyst
-Darmstadtium,Ds,21.46 or greater,47.688 or greater,110,,,artificial
+Darmstadtium,Ds,21.46,47.688 or greater,110,,,artificial
 Osmium,Os,22.610,71.577,76,,,
 Iridium,Ir,22.650,70.962,77,silvery-white,,Densest natural element
-Seaborgium,Sg,35 (Estimate),79.239 (Estimate)),106,,,"artificial, all remaining elements below are artificial"
-Meitnerium,Mt,35 (Estimate),78.647,109,,,
-Bohrium,Bh,37 (Estimate),84.401 (Estimate),107,,,
-Dubnium,Db,39 (Estimate),89.643 (Estimate),105,,,
-Hassium,Hs,41 (Estimate),89.136 (Estimate),108,,,
+Seaborgium,Sg,35,79.239 (Estimate)),106,,,"artificial, all remaining elements below are artificial"
+Meitnerium,Mt,35,78.647,109,,,
+Bohrium,Bh,37,84.401 (Estimate),107,,,
+Dubnium,Db,39,89.643 (Estimate),105,,,
+Hassium,Hs,41,89.136 (Estimate),108,,,
 Fermium,Fm,Unknown,Unknown,100,,,
 Mendelevium,Md,Unknown,Unknown,101,,,
 Nobelium,No,Unknown,Unknown,102,,,
