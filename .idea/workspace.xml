@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e09b4e82-d386-41a0-8679-bcc5fa564daf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chemistry/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chemistry/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +46,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tables" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tables" />
       <recent name="$PROJECT_DIR$/src/csv" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -109,7 +108,7 @@
       <workItem from="1585403201512" duration="17927000" />
       <workItem from="1585473840089" duration="647000" />
       <workItem from="1585474785976" duration="20375000" />
-      <workItem from="1585552796935" duration="25807000" />
+      <workItem from="1585552796935" duration="26413000" />
     </task>
     <task id="LOCAL−00001" summary="The program  reads data from all files and sets the correct object values. Still need to ensure that the math formulas are correct and need to print / write the data results out.">
       <created>1585437572287</created>
@@ -123,7 +122,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1585584827324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Added 'Chemistry Assignment.pdf' to explain the results and explain the input variables I chose.">
+      <created>1585592932307</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1585592932307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -133,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The program  reads data from all files and sets the correct object values. Still need to ensure that the math formulas are correct and need to print / write the data results out." />
     <MESSAGE value="Done with the debugging. The code is now working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with the debugging. The code is now working." />
+    <MESSAGE value="Added 'Chemistry Assignment.pdf' to explain the results and explain the input variables I chose." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'Chemistry Assignment.pdf' to explain the results and explain the input variables I chose." />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585483980913">
@@ -149,11 +155,11 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="634" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1585490795407" />
-    <state x="127" y="136" key="CommitChangelistDialog2" timestamp="1585584826947">
+    <state x="382" y="137" key="CommitChangelistDialog2" timestamp="1585592931816">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="469" y="136" key="CommitChangelistDialog2/0.23.1792.1022@0.23.1792.1022" timestamp="1585437571853" />
-    <state x="127" y="136" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1585584826947" />
+    <state x="382" y="137" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1585592931816" />
     <state width="1750" height="628" key="GridCell.Tab.0.bottom" timestamp="1585591919797">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -214,11 +220,11 @@
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="384" y="121" key="SettingsEditor/0.23.1792.1033@0.23.1792.1033" timestamp="1585342940828" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1585584831261">
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1585592935356">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1022@0.23.1792.1022" timestamp="1585437579870" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1024@0.23.1792.1024" timestamp="1585584831261" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1024@0.23.1792.1024" timestamp="1585592935356" />
     <state x="575" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585552797292">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
