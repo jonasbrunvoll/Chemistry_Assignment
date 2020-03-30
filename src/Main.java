@@ -153,15 +153,15 @@ public class Main {
         }
 
         //Task 2. Find the distances between the atoms
-        System.out.println("\n__Task2. Find the distance between atoms using given Zetta Units");
+        System.out.println("\nTask2. Find the distance between atoms using given Zetta Units");
         for (int i = 0; i < atoms.size(); i++){
             if (densityList.get(i).getZettaUnit() != -1.0){
                 density = densityList.get(i).getDensity();
                 double distanceBetweenAtoms = main.atomsPerVolum(weightList[i], density);
                 error = main.error(distanceBetweenAtoms, densityList.get(i).getZettaUnit());
-                System.out.println( atoms.get(i).getAtomicNumber() +  String.format("   Distance between atoms: %.6f Atoms/cm^3" , distanceBetweenAtoms) + String.format(" Error:  %.6f Atoms/cm^3", + error));
+                System.out.println( atoms.get(i).getAtomicNumber() +  String.format(".    Zetta atomer: %.6f Atoms/cm^3" , distanceBetweenAtoms) + String.format(".    Error:  %.6f Atoms/cm^3", + error));
             } else {
-                System.out.println(atoms.get(i).getAtomicNumber() + "   Distance between atoms unknown.");
+                System.out.println(atoms.get(i).getAtomicNumber() + ".    Unknown.");
             }
 
         }
@@ -194,7 +194,7 @@ public class Main {
                 density  = main.calculateDensity(weightList[i], atoms.get(i).getTheMiddleValue());
                 double distanceBetweenAtoms = main.atomsPerVolum(density, weightList[i]);
                 error = main.error(distanceBetweenAtoms, atoms.get(i).getTheMiddleValue());
-                System.out.println( atoms.get(i).getAtomicNumber() +  String.format("    Distance between atoms: %.6f " , distanceBetweenAtoms) + String.format("Atoms/cm^3.    Error:  %.6f ", + error) + "Atoms/cm^3");
+                System.out.println( atoms.get(i).getAtomicNumber() +  String.format("    Atoms per volum atoms: %.6f " , distanceBetweenAtoms) + String.format("Atoms/cm^3.    Error:  %.6f ", + error) + "Atoms/cm^3");
             } else {
                 System.out.println(atoms.get(i).getAtomicNumber() + "    Distance between atoms: unknown.");
             }
