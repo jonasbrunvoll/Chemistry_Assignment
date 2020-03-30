@@ -1,66 +1,79 @@
+import sun.applet.AppletResourceLoader;
+
+import javax.xml.stream.events.StartDocument;
 import java.util.ArrayList;
 
-class NumericDensity {
+ class NumericDensity{
 
-    //Read in object variables
+     private final int ROWSIZE = 9;
+
+    //Object variables
     private String nameAtom;
     private String symbolAtom;
-    private String density;
-    private String zettaUnit;
-    private String atomicNumber;
+    private double density;
+    private double zettaUnit;
+    private int atomicNumber;
     private String description;
     private String hardness;
     private String color;
     private String notes;
 
-    //Get
-    public String getDensity(){
-        return density;
-    }
+     public void submitList(String[] densities){
+         String[] densityList = chechIfMissingColums(densities);
+         this.nameAtom = densityList[0];
+         this.symbolAtom = densityList[1];
+         this.density = Double.parseDouble(densityList[2]);
+         this.zettaUnit = Double.parseDouble(densityList[3]);
+         this.atomicNumber = Integer.parseInt(densityList[4]);
+         this.description = densityList[5];
+         this.hardness = densityList[6];
+         this.color = densityList[7];
+         this.notes = densityList[8];
+     }
 
+    //Get methods
+    public double getDensity(){ return density; }
+    public double getZettaUnit(){ return zettaUnit; }
+    public int getAtomicNumber(){ return atomicNumber; }
 
-    public void submitList(String[] densities){
-        String[] densityList = chechIfMissingColums(densities);
-        this.nameAtom = densityList[0];
-        this.symbolAtom = densityList[1];
-        this.density = densityList[2];
-        this.zettaUnit = densityList[3];
-        this.atomicNumber = densityList[4];
-        this.description = densityList[5];
-        this.hardness = densityList[6];
-        this.color = densityList[7];
-        this.notes = densityList[8];
-    }
+     public String toString(){
+         String message = "\n"+nameAtom+", "+symbolAtom+", "+density+","+zettaUnit+", "+atomicNumber+", "+description+", "+hardness+", "+color+", "+notes;
+         return message ;
+     }
 
-    private String[] chechIfMissingColums(String[] data){
-        ArrayList<String> chechList = new ArrayList<>();
-        for (int i = 0; i < data.length; i++){
-            chechList.add(data[i]);
+    //Method to write 'no data' where the numericDensity is missing columns
+     private String[] chechIfMissingColums(String[] numericDensityValue){
+        ArrayList<String> helpArray = new ArrayList<>();
+
+        //Copies data
+        for (int i = 0; i < numericDensityValue.length; i++){
+            helpArray.add(numericDensityValue[i]);
         }
-        int rows = chechList.size();
 
-        fillNoData(chechList, rows);
+        //adds "no data" in missing columns
+        fillNoData(helpArray, helpArray.size());
 
-        String[] density = new String[9];
-        //|| chechList.get(i).equals("Unknown")
+        //fills empty cpolumns with "no data"
+        String[] density = new String[ROWSIZE];
         for (int i = 0; i < density.length; i++){
-            if (chechList.get(i).equals("")){
+            if (helpArray.get(i).equals("")){
                 density[i] ="no data";
             } else {
-                density[i] = chechList.get(i);
+                density[i] = helpArray.get(i);
             }
 
         }
         return density;
     }
 
-    private void fillNoData(ArrayList<String> chechList, int rows){
-        for (int i = 0; i < rows; i ++){
-            chechList.add("no data");
+    private void fillNoData(ArrayList<String> helpArray, int stopAfter){
+        for (int i = 0; i < stopAfter; i ++){
+            helpArray.add("no data");
         }
     }
-    public String toString(){
-        String message = "\n"+nameAtom+", "+symbolAtom+", "+density+","+zettaUnit+", "+atomicNumber+", "+description+", "+hardness+", "+color+", "+notes;
-        return message ;
-    }
+
+
 }
+
+
+
